@@ -1,7 +1,4 @@
 {
-   "engines":{
-    "node": "16.17.1"
-  },
   "name": "blog_app",
   "version": "1.0.0",
   "description": "",
@@ -10,8 +7,9 @@
     "start": "node server.js",
     "server": "nodemon server.js",
     "client": "npm start --prefix ./client",
-    "dev": "concurrently \"npm start\" \" npm run client\""
-  },
+    "dev": "concurrently \"npm run server\" \" npm run client\""
+},
+
   "keywords": [],
   "author": "Sanjeev Kumar",
   "license": "ISC",
