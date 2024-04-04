@@ -1,4 +1,7 @@
 {
+   "engines":{
+    "node": "16.17.1"
+  },
   "name": "blog_app",
   "version": "1.0.0",
   "description": "",
